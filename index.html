@@ -1511,7 +1511,7 @@ function paintEmo(){
   else { big.textContent = NAME[emoTab] + ' ainda não escolheu uma emoção.'; st.appendChild(big);
     if (me === emoTab) { const s = document.createElement('small'); s.textContent = 'escolhe logo, boboca'; st.appendChild(s); } }
   $('#emoSync').textContent = remote()
-    ? 'Sincronizado entre vocês dois quando há conexão.'
+    ? ''
     : '';
 }
 async function pickEmotion(id, el){
